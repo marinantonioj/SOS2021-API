@@ -3,10 +3,12 @@ var cool = require("cool-ascii-faces");
 var express = require("express");
 var path = require("path");
 var bodyParser = require("body-parser");
+var cors = require("cors");
 
 var port = (process.env.PORT || 10000);
 //var BASE_API_PATH = "/api/v1/";
 var app = express();
+app.use(cors());
 
 /*
 app.get("/cool", (request,response) => {//request son los datos que me mandan a mi y response es para devolver datos al cliente
