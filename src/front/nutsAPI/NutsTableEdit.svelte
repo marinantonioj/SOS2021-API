@@ -102,6 +102,7 @@
                 <th>Almendra</th>
                 <th>Nuez</th>
                 <th>Pistacho</th>
+                <th>Acciones</th>
             </tr>
         </thead>
         <tbody>
@@ -111,6 +112,7 @@
                 <td><input bind:value="{updateAlmond}"></td>
                 <td><input bind:value="{updateWalnut}"></td>
                 <td><input bind:value="{updatePistachio}"></td>
+                <td><Button on:click={updateData}>Actualizar</Button></td>
             </tr>
         </tbody>
     </Table>

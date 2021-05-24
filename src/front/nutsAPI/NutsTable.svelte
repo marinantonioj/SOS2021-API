@@ -316,6 +316,7 @@
 
     <Button outline color="secondary" on:click="{pop}">Retroceder</Button>
     <Button outline color="primary" on:click="{loadData}">Cargar datos iniciales</Button>
+    <Button outline color="danger" on:click="{deleteAllCountries}">Borrar todos los datos</Button>
 </main>
 
 <style>
